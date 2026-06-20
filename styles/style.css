@@ -343,3 +343,41 @@ display: block;
   max-width: 693px;
   
 } 
+
+
+
+/* футер */
+
+.footer {
+  display: flex;
+  gap: 154.03px 177.5px;
+  margin-top: 180px;
+  align-items: flex-start;
+}
+
+.nav_menu_footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end ;
+  align-items: center;
+  max-width: 240px;
+  gap: 48px;
+}
+
+.footer_logo {
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+
+.footer_style_link {
+  text-decoration: none;
+  list-style: none;
+}
