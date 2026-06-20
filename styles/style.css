@@ -18,7 +18,7 @@
 .logo_link {
   justify-self: center;
   min-width: 148px;
-  max-height: 105px;
+  min-height: 105px;
 
 }
 
@@ -423,5 +423,4 @@ ul {
   font-style: normal;
   font-size: 18px;
   line-height: 24.3px;
-
 }
