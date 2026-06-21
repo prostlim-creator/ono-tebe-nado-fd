@@ -13,6 +13,11 @@
   width: 1100px;
 }
 
+.header_link_list_item_hover:hover {
+  color: #767373;
+  scale: 1.01;
+}
+
 .logo_link {
   align-self: center;
 }
@@ -157,7 +162,11 @@
   text-transform: uppercase;
 }
 
-
+.bet_button:hover {
+  scale: 1.1;
+  transition-duration: 0.2s;
+  background-color: #e0d9d969;
+}
 
 
 /* раздел с лотами */
@@ -188,7 +197,14 @@
   text-align: left;
   display: flex;
   flex-direction: column;
-  z-index: -1;
+  z-index: 0;
+  
+}
+
+.card:hover .text_style_title {
+  transition-duration: 0.35s;
+  scale: 1.02;
+  color: #d7d1d1;
 }
 
 .card_type_film {
@@ -202,8 +218,6 @@
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
 }
-
-
 
 .text_style_title {
   font-family: Raleway;
@@ -251,8 +265,14 @@
   font-size: 20px;
   width: 192px;
   margin-left: 40px;
-  border-width: 1px;
-  
+  display: inline-block;
+}
+
+
+.more:hover {
+  transition-duration: 0.25s;
+  color: #111111;
+  scale: 1.05;
 }
 
 
@@ -291,7 +311,6 @@
   display: block;
   min-width: 148px;
   min-height: 114px;
-
 }
 
 .name_about {
@@ -302,8 +321,6 @@
   font-family: Raleway;
   text-transform: uppercase;
   margin-bottom: 100px;
-
-
 }
 
 .about_content {
@@ -314,7 +331,6 @@
   font-family: Raleway;
   font-style: normal;
   line-height: 24px;
-
 }
 
 
@@ -342,8 +358,6 @@
   font-style: normal;
   font-size: 18px;
   text-align: center;
-
-
 }
 
 .social {
@@ -353,6 +367,19 @@
   max-width: 240px;
   gap: 48px;
   list-style: none;
+}
+
+.social_logo_yt:hover .logo_yt {
+   transition-duration: 0.35s;
+  scale: 1.1;
+}
+.social_logo_vk:hover .logo_vk {
+   transition-duration: 0.35s;
+  scale: 1.1;
+}
+.social_logo_pint:hover .logo_pint {
+   transition-duration: 0.35s;
+  scale: 1.1;
 }
 
 .footer_logo {
@@ -366,7 +393,21 @@
   list-style: none;
 }
 
+.footer_style_link:hover {
+  transition-duration: 0.25s;
+  color: #111111;
+  scale: 1.05;
+}
+
 .footer__adress {
   max-width: 264.5px;
   max-height: 98px;
+}
+.number:hover {
+  color: #767373;
+  scale: 1.01;
+}
+.email:hover {
+  color: #767373;
+  scale: 1.01;
 }
