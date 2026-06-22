@@ -13,7 +13,7 @@
   width: 1100px;
 }
 
-.header_link_list_item_hover:hover {
+.header__links-list-item:hover {
   color: #767373;
   scale: 1.01;
 }
@@ -40,6 +40,7 @@
 }
 
 
+
 .header__links-list li:first-of-type {
   list-style: none;
 }
@@ -49,7 +50,7 @@
 }
 
 .adress {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -140,7 +141,7 @@
   display: block;
   text-transform: uppercase;
   color: #ffffff;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 100px;
   line-height: 114.9%;
@@ -156,7 +157,7 @@
   border: 1px solid;
   background-color: transparent;
   color: #FFFFFF;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   text-align: center;
   text-transform: uppercase;
@@ -171,18 +172,19 @@
 
 /* раздел с лотами */
 .lots_title {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
   width: 121px;
   padding-left: 40px;
+
+  margin-bottom: 27px;
 }
 
 .lots {
   padding-left: 24px;
   display: flex;
-  gap: 24px;
   flex-wrap: wrap;
 
 }
@@ -220,7 +222,7 @@
 }
 
 .text_style_title {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
@@ -236,7 +238,7 @@
 }
 
 .text_style {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
   color: #FFFFFF;
@@ -252,6 +254,7 @@
   list-style: none;
   display: flex;
   gap: 25px;
+  margin-bottom: 30px;
 }
 
 .lots ul li a {
@@ -260,7 +263,7 @@
 }
 
 .more {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
   width: 192px;
@@ -318,7 +321,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: normal;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   text-transform: uppercase;
   margin-bottom: 100px;
 }
@@ -328,7 +331,7 @@
   font-size: 20px;
   max-width: 693px;
   margin-top: 24px;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-style: normal;
   line-height: 24px;
 }
@@ -340,10 +343,9 @@
 
 .footer {
   display: flex;
-  gap: 154.03px 177.5px;
   align-items: flex-start;
-  justify-content: center;
-  padding: 180px 0 90px;
+  justify-content: space-between;
+  padding: 180px 50px 90px;
 }
 
 .nav_menu_footer {
@@ -353,11 +355,13 @@
   margin: 0;
   padding: 0;
   align-items: center;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
   text-align: center;
+  white-space: nowrap;
+  margin-right: 25px;
 }
 
 .social {
@@ -369,27 +373,26 @@
   list-style: none;
 }
 
-.social_logo_yt:hover .logo_yt {
+.social_logo_yt:hover .footer__menu-list-item {
    transition-duration: 0.35s;
   scale: 1.1;
 }
-.social_logo_vk:hover .logo_vk {
+.social_logo_vk:hover .footer__menu-list-item_center {
    transition-duration: 0.35s;
   scale: 1.1;
 }
-.social_logo_pint:hover .logo_pint {
+.social_logo_pint:hover .footer__menu-list-item_end {
    transition-duration: 0.35s;
   scale: 1.1;
 }
 
-.footer_logo {
+.footer__menu-link {
   display: block;
   width: 48px;
   height: 48px;
 }
 
 .footer_style_link {
-  text-decoration: none;
   list-style: none;
 }
 
@@ -401,7 +404,6 @@
 
 .footer__adress {
   max-width: 264.5px;
-  max-height: 98px;
 }
 .number:hover {
   color: #767373;
@@ -410,4 +412,12 @@
 .email:hover {
   color: #767373;
   scale: 1.01;
+}
+
+.nav_menu_footer li:first-of-type a {
+  text-decoration: none;
+}
+
+.footer__menu-list-item {
+  width: 48px
 }
