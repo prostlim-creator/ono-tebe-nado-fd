@@ -178,7 +178,6 @@
   text-transform: uppercase;
   width: 121px;
   padding-left: 40px;
-
   margin-bottom: 27px;
 }
 
@@ -186,7 +185,6 @@
   padding-left: 24px;
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .card {
@@ -200,7 +198,6 @@
   display: flex;
   flex-direction: column;
   z-index: 0;
-  
 }
 
 .card:hover .text_style_title {
@@ -292,7 +289,6 @@
   display: grid;
   grid-template-columns: auto 1fr;
   padding-left: 24px;
-
 }
 
 .image {
@@ -374,15 +370,17 @@
 }
 
 .social_logo_yt:hover .footer__menu-list-item {
-   transition-duration: 0.35s;
+  transition-duration: 0.35s;
   scale: 1.1;
 }
+
 .social_logo_vk:hover .footer__menu-list-item_center {
-   transition-duration: 0.35s;
+  transition-duration: 0.35s;
   scale: 1.1;
 }
+
 .social_logo_pint:hover .footer__menu-list-item_end {
-   transition-duration: 0.35s;
+  transition-duration: 0.35s;
   scale: 1.1;
 }
 
@@ -405,10 +403,12 @@
 .footer__adress {
   max-width: 264.5px;
 }
+
 .number:hover {
   color: #767373;
   scale: 1.01;
 }
+
 .email:hover {
   color: #767373;
   scale: 1.01;
