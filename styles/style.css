@@ -23,8 +23,8 @@
 }
 
 .logo_link img {
-  width: 148px;
-  height: 105px;
+  min-width: 148px;
+  min-height: 105px;
 
 }
 
@@ -384,7 +384,9 @@
   scale: 1.1;
 }
 
-.footer__menu-link {
+.footer__menu-list-item,
+.footer__menu-list-item_center,
+.footer__menu-list-item_end {
   display: block;
   width: 48px;
   height: 48px;
